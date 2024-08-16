@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: "Inter", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        header {
+            width: 980px;
+            height: 142px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            border: 1px solid red;
+        }
+        .menu {
+            box-sizing: border-box;
+        }
+        .main_banner{
+            width: 980px;
+            height: 184px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            border: 1px solid blue;
+            background-image: url(./images/sub_top_bg.jpg);
+        }
+        .container {
+            display: flex;
+            width: 980px;
+            height: 743px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            border: 1px solid orange;
+        }
+        .side_menu {
+            width: 176px;
+            height: 650px;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .main_content {
+            width: 802px;
+            height: 743px;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        footer {
+            width: 980px;
+            height: 130px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            border: 1px solid purple;
+        }
+
+        footer > img {
+            float: left;
+        }
+
+        footer > span {
+            font-size: 10.83px;
+            line-height: 18px;
+            color: #585858;
+        }
+
+         
+    </style>
+</head>
+<body>
+    <header>
+        <p>
+            <a href="#">HOMEㅣ</a>
+            <a href="#">로그인ㅣ</a>
+            <a href="#">회원가입ㅣ</a>
+            <a href="#">고객센터</a>
+        </p>
+        <div class="menu">
+            <img src="./images/head_menu_line.png" alt="header 메뉴 검은 선">
+            <img src="./images/head_menu_line.png" alt="header 메뉴 검은 선">
+            <img src="./images/head_menu_line.png" alt="header 메뉴 검은 선">
+            <img src="./images/head_menu_line.png" alt="header 메뉴 검은 선">
+            <img src="./images/head_menu_line.png" alt="header 메뉴 검은 선">
+        </div>
+        <div class="main_logo">
+            <img src="./images/logo.png" alt="header main logo farmStory">
+        </div>
+        <div class="sub_logo">
+            <img src="./images/head_txt_img.png" alt="3만원이상 무료배송, 팜카드 10% 적립">
+        </div>
+    </header>
+    <section class="main_banner"></section>
+    <main class="container">
+        <aside class="side_menu"></aside>
+        <div class="main_content">
+            <nav></nav>
+            <table class="tb1">
+                <tr>
+                    <th></th>
+                    <th>이미지</th>
+                    <th>종류</th>
+                    <th>상품명</th>
+                    <th>수량</th>
+                    <th>할인</th>
+                    <th>포인트</th>
+                    <th>가격</th>
+                    <th>소계</th>
+                </tr>
+            </table>
+            <button>선택삭제</button>
+            <div>주문하기</div>
+        </div>
+    </main>
+    <footer>
+        <img src="./images/footer_logo.png" alt="farmStory footer">
+        <span>(주)팜스토리 / 사업자등록번호 123-45-67890 / 통신판매업신고 제 2013-팜스토리구-123호 / 벤처기업확인 서울지방중소기업청 제 012345678-9-01234호<br>
+            등록번호 팜스토리01234 (2013.04.01) / 발행인 : 홍길동 <br>
+            대표 : 홍길동 / 이메일 : email@mail.mail / 전화 : 01) 234-5678 / 경기도 성남시 잘한다구 신난다동 345
+        </span>
+        <span>Copyright(C)홍길동 All rights reserved.</span>
+    </footer>
+</body>
+</html>
